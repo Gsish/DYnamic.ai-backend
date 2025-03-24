@@ -22,8 +22,8 @@ from functools import lru_cache
 from datetime import datetime, timedelta
 
 # Direct API key configuration
-MISTRAL_API_KEY = "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"
-MISTRAL_API_URL = "https://openrouter.ai/api/v1"
+MISTRAL_API_KEY = ""
+MISTRAL_API_URL = ""
 
 # Cache AI responses for future use
 _response_cache = {}
@@ -73,8 +73,8 @@ def ai_query_view(request):
             status=500
         )
 
-NEWS_API_KEY = "0a1f54e3ee7749b68339dc8883cd42ff"  
-NEWS_API_URL = "https://newsapi.org/v2/top-headlines"
+NEWS_API_KEY = ""  
+NEWS_API_URL = ""
 
 @api_view(["GET"])
 def news_articles(request):
