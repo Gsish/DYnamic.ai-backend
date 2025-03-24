@@ -20,8 +20,8 @@ import matplotlib.pyplot as plt
 nlp = spacy.load("en_core_web_sm")
 
 # API Credentials
-MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
-MISTRAL_API_KEY = "8fOnJn0tHCSjZzxXYQMiHl0MANAHXLvr"  # Replace with your actual API key
+MISTRAL_API_URL = ""
+MISTRAL_API_KEY = ""  # Replace with your actual API key
 
 def fetch_company_data(ticker_symbol, period='1y'):
     """
