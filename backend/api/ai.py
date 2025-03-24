@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from serpapi import GoogleSearch  
 
-SERPAPI_KEY = "92dce073ecc6dab7e1ab33e02fa70c9b741d8905942bc1603c001eaee4ac353c"
-MISTRAL_API_KEY = "8fOnJn0tHCSjZzxXYQMiHl0MANAHXLvr"
+SERPAPI_KEY = ""
+MISTRAL_API_KEY = ""
 
 def get_top_search_results(query):
     params = {
